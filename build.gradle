@@ -27,6 +27,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'com.google.code.gson:gson:2.7'
+	implementation 'org.apache.commons:commons-lang3:3.14.0'
 }
 
 tasks.named('test') {
